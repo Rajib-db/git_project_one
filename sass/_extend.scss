@@ -1,0 +1,25 @@
+%btn {
+    padding: 1.5rem 3rem;
+    background-color: #fba612;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+%bg-gradient {
+    background-image: -ms-linear-gradient(132deg, rgb(34, 57, 208) 0%, rgb(24, 139, 227) 100%);
+    background-image: -moz-linear-gradient(132deg, rgb(34, 57, 208) 0%, rgb(24, 139, 227) 100%);
+    background-image: -webkit-linear-gradient(132deg, rgb(34, 57, 208) 0%, rgb(24, 139, 227) 100%);
+   
+}
+
+%hover-color{
+    color: #fff;
+}
+
+%line {
+    width: 100%;
+    border: .1rem solid #8dbcef;
+    margin: 10rem 1.5rem 8rem 1.5rem;
+}

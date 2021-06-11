@@ -1,0 +1,226 @@
+/* large desktops :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .slider-height {
+        min-height: 80rem;
+    }
+
+    header .head_nav-custom .navbar-nav .nav-item .nav-link {
+        margin-right: 1rem;
+    }
+
+    header .head_nav-custom .search-btn-list li .search__wrapper .search__field {
+        font-size: 1.8rem;
+    }
+
+    .footer-area {
+        padding: 18rem 0 4rem;
+    }
+
+    .footer-height {
+        min-height: 80rem;
+    }
+}
+
+
+/* desktops :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    html {
+        font-size: 50.5%;
+    }
+
+    .slider-height {
+        min-height: 70rem;
+    }
+
+    header .head_nav-custom .navbar-brand img {
+        margin-right: 3rem;
+    }
+
+    header .head_nav-custom .search-btn-list li {
+        margin-right: 2rem;
+    }
+
+    header .head_nav-custom .search-btn-list li .btn-box {
+        padding: 1.5rem 1.8rem;
+    }
+
+    .testimonial-area .testi-bg {
+        margin-left: -442px;
+    }
+
+    .footer-area {
+        padding: 18rem 0 4rem;
+    }
+    
+    .footer-height {
+        min-height: 42rem;
+    }
+
+    .footer-area .copyright .social-list .social-icon i {
+        line-height: 5.6rem;
+    }
+    
+}
+
+@media (max-width: 992px){
+
+    header .head_nav-custom {
+        padding: 0 2rem;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 2px solid #333;
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        height: 517px;
+        background: #204bd4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 2rem 0;
+    }
+
+    .navbar-nav {
+        align-items: center;
+        width: 100%;
+    }
+
+    .sub-main {
+        width: 100%;
+        text-align: center;
+    }
+}
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .trastifi-area {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .trastifi-area .trastifi-content .single-trastifi-box {
+        max-width: 100%;
+        margin-left: 0;
+        float: none !important;
+        margin-bottom: 2rem;
+    }
+
+    .trastifi-area .trastifi-content .trastifi-text {
+        padding-left: 0;
+    }
+
+    .testimonial-area {
+        padding: 0;
+    }
+
+    .testimonial-area .testi-bg {
+        width: 600px;
+        height: 700px;
+        margin-left: -341px;
+    }
+
+    .footer-area .newsletter-content h3 {
+        margin-bottom: 2rem;
+    }
+    .footer-area form .subscribe-wrap input {
+        padding: 3rem 3rem;
+    }
+
+    .footer-area form .subscribe-wrap .sub-btn {
+        padding: 1rem 3.5rem;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    html {
+        font-size: 55.5%;
+    }
+
+    .slider-height {
+        min-height: 90rem;
+    }
+
+    .slider-area .slider-text h1 {
+        line-height: 1;
+    }
+
+    .contact-form-area {
+        padding-top: 10rem;
+        padding-bottom: 8rem;
+    }
+
+    .feature-are {
+        padding: 5rem 0;
+    }
+
+    .single-feature-box{
+        margin-bottom: 3rem;
+    }
+
+    .trastifi-area {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .trastifi-content {
+        margin-top: 4rem;
+    }
+
+    .trastifi-area .trastifi-content .single-trastifi-box {
+        max-width: 100%;
+        margin-left: 0;
+        margin-bottom: 5rem;
+    }
+    .trastifi-area .trastifi-content .trastifi-text {
+        padding-left: 0;
+    }
+
+    .testimonial-area .testi-bg{
+        display: none;
+    }
+
+    .testimonial-area {
+        padding: 4rem 0 0rem;
+    }
+
+    .footer-area .newsletter-content h3 {
+        margin-bottom: 3rem;
+    }
+
+    .footer-area form .subscribe-wrap input {
+        padding: 3.5rem 3rem;
+    }
+
+    .footer-area form .subscribe-wrap .sub-btn {
+        padding: 1rem 2.5rem;
+    }
+
+    .footer-area .newsletter-content .line, .footer-area .footer-wrapper .line {
+        margin: 4rem 1.5rem 4rem 1.5rem;
+    }
+
+    .footer-area .copyright {
+        margin-top: 4rem;
+    }
+
+    .footer-area .copyright .social-list {
+        margin-top: 3rem;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   
+}
